@@ -1,0 +1,60 @@
+/*// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/*/
+$gray: #EDE6E3;
+
+h1 {
+font-family: 'Poppins', sans-serif;
+text-align: center;
+font-size: 30px;
+color: white;
+}
+
+p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: $gray;
+}
+
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.titre {
+  background-color: rgba( 240, 100, 73, .5);
+  padding: 5px;
+  border-radius: 50px;
+
+}
+
+.user-input {
+  text-align: center;
+  font-size: 50px;
+}
+
+.user-text {
+  font-size: 30px;
+}
+
+
+.btn{
+  background-color: rgba( 240, 100, 73, .5);
+  font-size: 30px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
